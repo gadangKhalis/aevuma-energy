@@ -16,7 +16,33 @@ export default function Hero() {
           Energy Without <br />
           <span className="text-solar-blue">Limits.</span>
         </h1>
-        <p className="text-arctic-white ">SubHeadling</p>
+
+        <p className="text-arctic-white text-lg opacity-60 max-w-2x1 leading-relaxed mb-10">
+          AEVUMA builds the energy infrastructure for the next century — fusion
+          reactors, orbital solar arrays, and planetary-scale battery storage.
+          Powering 4 billion people by 2045.
+        </p>
+
+        <div className="flex items-center gap-4">
+          <a
+            href="#"
+            className="bg-solar-blue text-white text-sm font-medium px-8 py-3.5 rounded-sm tracking-wide hover:opacity-90 transition-opacity duration-200"
+          >
+            Explore Our Technology
+          </a>
+          <a
+            href="#"
+            className="text-arctic-white text-sm font-medium px-8 py-3.5 rounded-sm tracking-wide border border-white/20 hover:border-white/50 transition-border duration-200"
+          >
+            Investor Relations →
+          </a>
+        </div>
+      </div>
+      <div className="absolute bottom-8 left-1/2 -translate-x-1/2 flex flex-col items-center gap-2">
+        <span className="text-arctic-white text-xs tracking-widest uppercase opacity-40">
+          Scroll
+        </span>
+        <div className="w-px h-12 bg-white opacity-20" />
       </div>
     </section>
   );
