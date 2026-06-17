@@ -1,8 +1,17 @@
 export default function Hero() {
   return (
     <section className="relative min-h-screen bg-void-black flex items-center justify-center overflow-hidden">
-      {/* background - gradient */}
-      <div className="absolute bottom-0 left-1/2 -translate-x-1/2 w-[800px] h-[500px] bg-solar-blue opacity-10 blur-[120px] rounded-full pointer-event-none" />
+      {/* Background Image */}
+      <div
+        className="absolute inset-0 bg-cover bg-no-repeat"
+        style={{ backgroundImage: "url('/images/hero-bg.jpg" }}
+      />
+      <div className="absolute inset-0 bg-void-black opacity-60" />
+
+      {/* Overlay bottom */}
+      <div className="absolute bottom-0 left-0 right-0 h-48 bg-gradient-to-t from-void-black to-transparent" />
+      <div className="absolute bottom-0 letf-1/2 -translate-x-1/2 w-[800px] h-[500px] bg-solar-blue opacity-10 blur-[120px] rounded-full pointer-events-none" />
+
       {/* COntent */}
       <div className="relative z-10 flex flex-col items-center text-center px-8 max-w-5x1 mx-auto">
         <div className="flex items-center gap-2 mb-6">
@@ -19,7 +28,8 @@ export default function Hero() {
 
         <p className="text-arctic-white text-lg opacity-60 max-w-2x1 leading-relaxed mb-10">
           AEVUMA builds the energy infrastructure for the next century — fusion
-          reactors, orbital solar arrays, and planetary-scale battery storage.
+          reactors, orbital solar arrays, and planetary-scale battery storage.{" "}
+          <br />
           Powering 4 billion people by 2045.
         </p>
 
