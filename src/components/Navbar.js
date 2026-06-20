@@ -45,7 +45,7 @@ export default function Navbar() {
         <ul className="flex items-center gap-8">
           <li>
             <a
-              href="#"
+              href="/technology"
               className="text-arctic-white text-sm tracking-wide opacity-70 hover:opacity-100"
             >
               Technology
@@ -53,7 +53,7 @@ export default function Navbar() {
           </li>
           <li>
             <a
-              href="#"
+              href="/impact"
               className="text-arctic-white text-sm tracking-wide opacity-70 hover:opacity-100"
             >
               Impact
@@ -61,7 +61,7 @@ export default function Navbar() {
           </li>
           <li>
             <a
-              href="#"
+              href="/onvestors"
               className="text-arctic-white text-sm tracking-wide opacity-70 hover:opacity-100"
             >
               Investors
@@ -69,7 +69,7 @@ export default function Navbar() {
           </li>
           <li>
             <a
-              href="#"
+              href="/careers"
               className="text-arctic-white text-sm tracking-wide opacity-70 hover:opacity-100"
             >
               Careers
@@ -77,7 +77,7 @@ export default function Navbar() {
           </li>
           <li>
             <a
-              href="#"
+              href="/about"
               className="text-arctic-white text-sm tracking-wide opacity-70 hover:opacity-100"
             >
               About
