@@ -21,28 +21,28 @@ export default function Hero() {
           </span>
         </div>
 
-        <h1 className="text-arctic-white text-6x1 font-medium tracking-tight leading-tight mb-6">
+        <h1 className="text-arctic-white text-4x1 md:text-5xl lg:text-6xl font-medium tracking-tight leading-tight mb-6">
           Energy Without <br />
           <span className="text-solar-blue">Limits.</span>
         </h1>
 
-        <p className="text-arctic-white text-lg opacity-60 max-w-2x1 leading-relaxed mb-10">
+        <p className="text-arctic-white text-base lg:text-lg opacity-60 max-w-2x1 leading-relaxed mb-10">
           AEVUMA builds the energy infrastructure for the next century — fusion
           reactors, orbital solar arrays, and planetary-scale battery storage.{" "}
           <br />
           Powering 4 billion people by 2045.
         </p>
 
-        <div className="flex items-center gap-4">
+        <div className="flex flex-col sm:flex-row items-center gap-4">
           <a
-            href="#"
-            className="bg-solar-blue text-white text-sm font-medium px-8 py-3.5 rounded-sm tracking-wide hover:opacity-90 transition-opacity duration-200"
+            href="/technology"
+            className="w-full sm:w-auto text-center bg-solar-blue text-white text-sm font-medium px-8 py-3.5 rounded-sm tracking-wide hover:opacity-90 transition-opacity duration-200"
           >
             Explore Our Technology
           </a>
           <a
-            href="#"
-            className="text-arctic-white text-sm font-medium px-8 py-3.5 rounded-sm tracking-wide border border-white/20 hover:border-white/50 transition-border duration-200"
+            href="/investors"
+            className="w-full sm:w-auto text-center text-arctic-white text-sm font-medium px-8 py-3.5 rounded-sm tracking-wide border border-white/20 hover:border-white/50 transition-border duration-200"
           >
             Investor Relations →
           </a>
