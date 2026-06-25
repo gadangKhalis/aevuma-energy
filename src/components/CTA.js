@@ -3,7 +3,7 @@ export default function CTA() {
     <section className="bg-solar-blue py-32">
       <div className="max-w-7xl mx-auto px-8 flex items-end justify-between">
         {/* Main Teks */}
-        <div className="flex flex-col gap-6 max-w-2xl">
+        <div className="flex flex-col lg:flex-row items-start lg:items-end gap-6 max-w-2xl">
           <div className="flex items-center gap-2">
             <div className="w-1.5 h-1.5 rounded-full bg-white opacity-60" />
             <span className="text-arctic-white text-xs tracking-widest uppercase opacity-60">
@@ -12,18 +12,20 @@ export default function CTA() {
           </div>
 
           {/* Headline */}
-          <h2 className="text-white text-6xl font-medium tracking-tight leading-tight">
-            Ready to invest in the future of energy?
-          </h2>
+          <div className="flex flex-col gap-6 max-w-2xl">
+            <h2 className="text-white text-4xl lg:text-6xl font-medium tracking-tight leading-tight">
+              Ready to invest in the future of energy?
+            </h2>
 
-          <p className="text-white text-base opacity-70 leading-relaxed max-w-lg">
-            AEVUMA is currently in its Series E funding round. Join the
-            institutions shaping the next century of clean, abundant energy —
-            and the returns that come with it.
-          </p>
+            <p className="text-white text-base opacity-70 leading-relaxed max-w-lg">
+              AEVUMA is currently in its Series E funding round. Join the
+              institutions shaping the next century of clean, abundant energy —
+              and the returns that come with it.
+            </p>
+          </div>
         </div>
 
-        <div className="flex flex-col items-end gap-8 shrink-0">
+        <div className="flex flex-col items-start lg:items-end gap-8 w-full lg:w-auto shrink-0">
           <div className="flex flex-col items-end gap-3">
             <div className="flex items-center gap-3">
               <span className="text-white text-xs opacity-50 tracking-wide">

@@ -13,7 +13,7 @@ export default function Mission() {
           </div>
 
           {/* Big Text */}
-          <h2 className="text-arctic-white text-5xl font-medium tracking-tight leading-tight mb-6">
+          <h2 className="text-arctic-white text-3xl lg:text-5xl font-medium tracking-tight leading-tight mb-6">
             We exist to make clean, abundant energy a basic right — not a
             privilege.
           </h2>
@@ -27,7 +27,7 @@ export default function Mission() {
         </div>
 
         {/* Technology Review */}
-        <div className="grid grid-cols-3 gap-6">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
           <div className="bg-void-black border-white/10 p-8 rounded-sm flex flex-col gap-4">
             <div className="w-10 h-10 bg-solar-blue/10 border border-solar-blue/20 rounded-sm flex items-center justify-center">
               <span className="text-solar-blue text-lg">⚛</span>

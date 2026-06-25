@@ -23,7 +23,7 @@ export default function Footer() {
       {/* Top, Main Content */}
       <div className="max-w-7xl mx-auto px-8 py-20">
         <div
-          className="grid gap-16"
+          className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 lg:gap-16"
           style={{ gridTemplateColumns: "2fr 1fr 1fr 1fr" }}
         >
           {/* 1st coloumn */}
@@ -117,11 +117,11 @@ export default function Footer() {
 
       {/* Bottom */}
       <div className="border-t border-white/10">
-        <div className="max-w-7xl mx-auto px-8 py-6 flex items-center justify-between">
+        <div className="max-w-7xl mx-auto px-8 py-6 flex flex-col md:flex-row items-start md:items-center justify-between gap-4">
           <span className="text-arctic-white text-xs opacity-30 tracking-wide">
             © 2026 AEVUMA Energy Systems. All rights reserved.
           </span>
-          <span className="text-arctic-white text-xs opacity-30 tracking-wide text-right max-w-sm">
+          <span className="text-arctic-white text-xs opacity-30 tracking-wide md:text-right">
             This website is a fictional portfolio project created for
             demonstration purposes only.
           </span>

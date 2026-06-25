@@ -42,15 +42,12 @@ export default function Impact() {
         </div>
 
         {/* 2nd and 3rd Row */}
-        <div
-          className="grid gap-4"
-          style={{ gridTemplateColumns: "2fr 1fr 1fr" }}
-        >
+        <div className="grid grid-cols-1  md:grid-cols-3 gap-4">
           {/* Card 1 */}
           <div className="relative border border-white/10 rounded-sm p-8 flex flex-col justify-between min-h-[220px] overflow-hidden">
             <div
               className="absolute inset-0 bg-cover bg-center bg-no-repeat"
-              style={{ backgroundImage: "url('/images/card1.jpg" }}
+              style={{ backgroundImage: "url('/images/card1.jpg')" }}
             />
             <div className="absolute inset-0 bg-void-black opacity-75" />
             <span className="relative z-10 text-arctic-white text-xs tracking-widest uppercase opacity-30">
@@ -68,7 +65,7 @@ export default function Impact() {
           </div>
 
           {/* Card 2 */}
-          <div className="bg-void-black border border-white/10 rounded-sm p-8 flex flex-col justify-between min-h-[220px]">
+          <div className="border border-white/10 rounded-sm p-8 flex flex-col justify-between min-h-[220px]">
             <span className="text-arctic-white text-xs tracking-widest uppercase opacity-30">
               Lives Impacted
             </span>
@@ -83,10 +80,10 @@ export default function Impact() {
           </div>
 
           {/* Card 3 */}
-          <div className="relative border border-white/10 rounded-sm p-8 flex flex-col justify-between min-h-[220px] overflow-hidden">
+          <div className="relative md:col-span-1 border border-white/10 rounded-sm p-8 flex flex-col justify-between min-h-[220px] overflow-hidden">
             <div
               className="absolute inset-0 bg-cover bg-center bg-no-repeat"
-              style={{ backgroundImage: "url('/images/card2.jpg" }}
+              style={{ backgroundImage: "url('/images/card2.jpg')" }}
             />
             <div className="absolute inset-0 bg-void-black opacity-75" />
 

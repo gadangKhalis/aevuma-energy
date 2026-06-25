@@ -41,7 +41,7 @@ export default function Hero() {
             Explore Our Technology
           </a>
           <a
-            href="/investors"
+            href="#Investors"
             className="w-full sm:w-auto text-center text-arctic-white text-sm font-medium px-8 py-3.5 rounded-sm tracking-wide border border-white/20 hover:border-white/50 transition-border duration-200"
           >
             Investor Relations →

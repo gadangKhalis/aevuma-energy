@@ -108,8 +108,8 @@ export default function Investors() {
       <div className="max-w-7xl mx-auto px-8 mb-16">
         {/* Heading */}
         <div className="flex items-center gap-2 mb-4">
-          <h2 className="text-arctic-white text-5xl font-medium tracking-tight max-w-2xl leading-tight mb-4">
-            Backed by the world's most forward-thinking institutions.
+          <h2 className="text-arctic-white text-3xl lg:text-5xl font-medium tracking-tight max-w-2xl leading-tight mb-4">
+            Backed by the world&apos;s most forward-thinking institutions.
           </h2>
           <p className="text-arctic-white text-sm opacity-40 tracking-wide">
             This website is a fictional portfolio project created for
