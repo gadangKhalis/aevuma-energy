@@ -17,7 +17,7 @@ export default function TechPage() {
             </span>
           </div>
 
-          <h1 className="text-arctic-white text-7xl font-medium tracking-tight leading-none mb-6 max-w-4xl">
+          <h1 className="text-arctic-white text-3xl md:text-5xl lg:text-7xl font-medium tracking-tight leading-none mb-6 max-w-4xl">
             Three technologies. <br />
             <span className="text-solar-blue">One Mission.</span>
           </h1>
@@ -53,7 +53,7 @@ export default function TechPage() {
               a city of 2 million people.
             </p>
 
-            <div className="grid grid-cols-2 gap-4 mt-4">
+            <div className="grid grid-cols-1 lg:grid-cols-2 gap-4 mt-4">
               <div className="border border-white/10 rounded-sm p-4 flex flex-col gap-1">
                 <span className="text-arctic-white text-xs opacity-30 tracking-widest uppercase">
                   Output
@@ -273,7 +273,7 @@ export default function TechPage() {
       </section>
       {/* CTA */}
       <section className="border-t border-white/10 py-24">
-        <div className="max-w-7xl mx-auto px-8 flex items-end justify-between">
+        <div className="max-w-7xl mx-auto px-8 flex flex-col gap-8 md:flex-row md:items-end md:justify-between">
           <div className="flex flex-col gap-4 max-w-xl">
             <div className="flex items-center gap-2">
               <div className="w-1.5 h-1.5 rounded-full bg-solar-blue" />
@@ -281,7 +281,7 @@ export default function TechPage() {
                 Get Started
               </span>
             </div>
-            <h2 className="text-arctic-white text-4xl font-medium tracking-tight leading-tight">
+            <h2 className="text-arctic-white text-3xl sm:text-4xl font-medium tracking-tight leading-tight">
               Want to see our Technology in action?
             </h2>
             <p className="text-arctic-white text-sm opacity-50 leading-relaxed">
@@ -291,16 +291,16 @@ export default function TechPage() {
             </p>
           </div>
 
-          <div className="flex gap-3 shrink-0">
+          <div className="flex flex-col sm:flex-row gap-3 shrink-0 w-full sm:w-auto">
             <a
               href="/contact"
-              className="bg-solar-blue text-white text-sm font-medium px-8 py-3.5 rounded-sm tracking-wide hover:opacity-90 transition-opacity duration-200"
+              className="w-full sm:w-auto text-center bg-solar-blue text-white text-sm font-medium px-8 py-3.5 rounded-sm tracking-wide hover:opacity-90 transition-opacity duration-200"
             >
               Schedule a Briefing
             </a>
             <a
               href="#"
-              className="text-arctic-white text-sm font-medium px-8 py-3.5 rounded-sm tracking-wide border border-white/20 hover:border-white/50 transition-all duration-200 "
+              className="w-full sm:w-auto text-center text-arctic-white text-sm font-medium px-8 py-3.5 rounded-sm tracking-wide border border-white/20 hover:border-white/50 transition-all duration-200"
             >
               Download Whitepaper →
             </a>
