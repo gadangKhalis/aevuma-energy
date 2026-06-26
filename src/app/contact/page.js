@@ -60,7 +60,7 @@ export default function ContactPage() {
               Contact Us
             </span>
           </div>
-          <h1 className="text-arctic-white text-7xl font-medium tracking-tight leading-none mb-6 max-w-3xl">
+          <h1 className="text-arctic-white text-4xl md:text-5xl lg:text-7xl font-medium tracking-tight leading-none mb-6 max-w-3xl">
             Let's build the future <br />
             <span className="text-solar-blue">together.</span>
           </h1>
@@ -76,7 +76,7 @@ export default function ContactPage() {
         <p className="text-arctic-white text-xs tracking-widest uppercase opacity-30 mb-10">
           What can we help you with?
         </p>
-        <div className="grid grid-cols-3 gap-4">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
           {inquiries.map((item) => (
             <div
               key={item.type}
@@ -103,10 +103,7 @@ export default function ContactPage() {
       {/* Contact Form */}
       <section className="border-t border-white/10 py-24">
         <div className="max-w-7xl mx-auto px-8">
-          <div
-            className="grid gap-24"
-            style={{ gridTemplateColumns: "1fr 1.2fr" }}
-          >
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-24">
             <div className="flex flex-col gap-6">
               <div className="flex items-center gap-2">
                 <div className="w-1.5 h-1.5 rounded-full bg-solar-blue" />
@@ -144,7 +141,7 @@ export default function ContactPage() {
             </div>
 
             <div className="flex flex-col gap-4">
-              <div className="grid grid-cols-2 gap-4">
+              <div className="grid grid-cols-1 lg:grid-cols-2 gap-4">
                 <div className="flex flex-col gap-2">
                   <label className="text-arctic-white text-xs opacity-40 tracking-widest uppercase">
                     Full Name
@@ -152,7 +149,7 @@ export default function ContactPage() {
                   <input
                     type="text"
                     placeholder="John Anderson"
-                    className="bg-transparent border border-white /10 rounded-sm px-4 py-3 text-arctic-white text-sm placeholder:opacity-20 focus:outline-none focus:border-white/30 transaction-all duration-200"
+                    className="bg-transparent border border-white/10 rounded-sm px-4 py-3 text-arctic-white text-sm placeholder:opacity-20 focus:outline-none focus:border-white/30 transition-all duration-200"
                   />
                 </div>
                 <div className="flex flex-col gap-2">
@@ -168,7 +165,7 @@ export default function ContactPage() {
               </div>
 
               {/* Row 2 */}
-              <div className="grid grid-cols-2 gap-4">
+              <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
                 <div className="flex flex-col gap-2">
                   <label className="text-arctic-white text-xs opacity-40 tracking-widest uppercase">
                     Company
@@ -219,7 +216,7 @@ export default function ContactPage() {
           <p className="text-arctic-white text-xs tracking-widest uppercase opacity-30 mb-10">
             Global Offices
           </p>
-          <div className="grid grid-cols-3 gap-4">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
             {offices.map((office) => (
               <div
                 key={office.city}
@@ -255,7 +252,7 @@ export default function ContactPage() {
 
       {/* ── Footer disclaimer ── */}
       <div className="border-t border-white/10 py-6">
-        <div className="max-w-7xl mx-auto px-8 flex items-center justify-between">
+        <div className="max-w-7xl mx-auto px-8 flex flex-col md:flex-row items-start md:items-center justify-between gap-4">
           <span className="text-arctic-white text-xs opacity-30 tracking-wide">
             © 2026 AEVUMA Energy Systems. All rights reserved.
           </span>
