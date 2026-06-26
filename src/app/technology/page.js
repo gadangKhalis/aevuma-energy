@@ -32,10 +32,7 @@ export default function TechPage() {
 
       {/* Tech Detail */}
       <section className="max-w-7xl mx-auto px-8 py-24">
-        <div
-          className="grid gap-16 items-center mb-32"
-          style={{ gridTemplateColumns: "1fr 1fr" }}
-        >
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center mb-32">
           <div className="flex flex-col gap-6">
             <div className="flex items-center gap-2">
               <div className="w-1.5 h-1.5 rounded-full bg-solar-blue" />
@@ -114,18 +111,15 @@ export default function TechPage() {
         <div className="w-full h-px bg-white opacity-10 mb-32" />
 
         {/* Tech 2 */}
-        <div
-          className="grid gap-16 items-center mb-32"
-          style={{ gridTemplateColumns: "1fr 1fr" }}
-        >
-          <div className="relative h-[500px] rounded-sm overflow-hidden border border-white/10">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center mb-32">
+          <div className="relative h-[500px] rounded-sm overflow-hidden border border-white/10 order-2 lg:order-1">
             <div
               className="absolute inset-0 bg-cover bg-center"
               style={{ backgroundImage: "url('/images/card1.jpg')" }}
             />
             <div className="absolute inset-0 bg-void-black opacity-40" />
           </div>
-          <div className="flex flex-col gap-6">
+          <div className="flex flex-col gap-6 order-1 lg:order-2">
             <div className="flex items-center gap-2">
               <div className="w-1.5 h-1.5 rounded-full bg-plasma-amber" />
               <span className="text-arctic-white text-xs tracking-widest uppercase opacity-60">
@@ -142,7 +136,7 @@ export default function TechPage() {
               near-zero loss.
             </p>
 
-            <div className="grid grid-cols-2 gap-4 mt-4">
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 mt-4">
               <div className="border border-white/10 rounded-sm p-4 flex flex-col gap-1">
                 <span className="text-arctic-white text-xs opacity-30 tracking-widest uppercase">
                   Altitude
@@ -194,13 +188,10 @@ export default function TechPage() {
         <div className="w-full h-px bg-white opacity-10 mb-32" />
 
         {/* Tech 3 */}
-        <div
-          className="grid gap-16 items-center"
-          style={{ gridTemplateColumns: "1fr 1fr" }}
-        >
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
           <div className="flex flex-col gap-6">
             <div className="flex items-center gap-2">
-              <dic className="w-1.5 h-1.5 rounded-full bg-fusion-green" />
+              <div className="w-1.5 h-1.5 rounded-full bg-fusion-green" />
               <span className="text-arctic-white text-xs tracking-widest uppercase opacity-60">
                 03 · Planetary Grid
               </span>
@@ -214,7 +205,7 @@ export default function TechPage() {
               transmission losses by 60%, and ensuring every node on the grid
               stays powered at all times.
             </p>
-            <div className="grid grid-cols-2 gap-4 mt-4">
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 mt-4">
               <div className="border border-white/10 rounded-sm p-4 flex flex-col gap-1">
                 <span className="text-arctic-white text-xs opacity-30 tracking-widest uppercase">
                   Capacity
